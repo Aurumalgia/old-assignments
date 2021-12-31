@@ -1,0 +1,255 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.mod:after,
+.section:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*Clearfix*/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+/*Body Styles*/
+
+body {
+    background: #4e3f30;
+    font-family: "Open Sans";
+}
+
+
+/*FlexGrid Styles*/
+
+.blogWrapper{
+    background-color: palegreen;
+    width: 100%;
+}
+.blogSection{
+    /*735/820=.89634146*/
+    width: 89.634146%;
+    /*45/820 = .05487805*/
+    margin: 0 5.487805%;
+
+    /*section 1 is 475/735px = .6463585*/
+    background: #F8F5F2 url("newBG.png") 64.62585% 0;
+    display: flex;
+}
+.feature{
+    /*480/900 = .53333333333333*/
+    width: 53.333333333333333%;
+    /*140/900 = .155555555555*/
+    margin: 0 15.555555555% 0 auto;
+    padding: 2% 0 2% 0;
+
+}
+.featureWrapper{
+    background-color: palegreen;
+}
+.featurePhoto{
+    position: relative;
+}
+.featureParagraph{
+    /*480/480 = 1*/
+    width: 100%;
+}
+.featureParagraph p{
+    /*10/480=.020833333*/
+    /*I can't find a way to calculate height, so I will just double the current number
+    20/480=.0416666666*/
+    padding: 2.083333333% 4.16666666%;
+    background-color: yellow;
+}
+footer{
+    width: 100%;
+    background-color: aquamarine;
+    margin: 2% 0;
+    padding: 2%;
+}
+h1{
+    /*835/820 = 1.01829268*/
+    width: 101.829268%;
+    /* 50/820 = .06097561 */
+    height: 6.097561%;
+    margin-right: 1.829268%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: honeydew;
+    font-size: 2em;
+}
+header{
+    /*220/820=.26829268*/
+    width: 26.829268%;
+    margin: auto;
+
+}
+.leftColumn{
+    /* 430/735 = .58503401
+    85/5/735 = .02312925
+    splitting 2-1-2, left, middle, right*/
+    width: 58.503401%;
+    margin-left: 3.52585%;
+    margin-right: 2.2564625%;
+    padding: 2% 1.75% 2% 0;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    background-color: cornflowerblue;
+}
+.logo img{
+    /* 15/220 = .06818181*/
+    margin: -6.818181818181% auto 6.818181818181%;
+}
+nav{
+    /*860/820=1.04870487*/
+    width: 104.870487%;
+    /*820/20 = .0243902439*/
+    margin-left: -2.43902439%;
+    font-size: 17px;
+    background-color: lavender;
+}
+.rightColumn{
+    /* 220/735 = .29931973
+        85/735 = .11564626
+    */
+    width: 29.931973%;
+    margin-right: 3.52585%;
+    margin-left: 2.2564625%;
+    padding: 2% 0 2% 2%;
+}
+.wrapper{
+    /*820+40+40 = 900*/
+    max-width: 90%;
+    width: 100%;
+    /* 40/900 = 04444444444 */
+    margin: 4.4444444444% auto;
+}
+/*Typographic*/
+
+.featurePhoto img{
+    vertical-align: bottom;
+}
+.featureText{
+    /*325/480 = .677083333333*/
+    width: 67.0833333333%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(43, 45, 47, 0.8);
+    padding: 2%;
+    color: aliceblue;
+}
+.figureImage{
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+h2{
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+.leftColumn p{
+    padding: 2% 0;
+    line-height: 125%;
+}
+img{
+    max-width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    margin: auto 2.61627906976%; /*22.5/860 =.026167906976 */
+}
+nav ul{
+    /*20/860 = .023255813953488*/
+    padding: 2.3255813953488%;
+}
+ol{
+    list-style-type: georgian;
+    margin: 1%;
+    margin-top: 1%;
+}
+ol li{
+    margin: 2%;
+    line-height: 150%;
+}
+ol li h3{
+    color: darkgreen;
+    border-bottom-color: black;
+    border-bottom-style: dot-dot-dash;
+    border-bottom-width: thin;
+    margin-bottom: .5%;
+    padding: .5%;
+}
+ol li p{
+    border-bottom-style: solid;
+    border-width: thin;
+    border-bottom-color: gray;
+    margin: auto;
+    padding: .5%;
+}
+.textWrap{
+    float: right;
+    margin: .5%;
+}

@@ -1,0 +1,340 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.mod:after,
+.section:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/*Clearfix*/
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    zoom: 1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+
+/*Body Styles*/
+
+body {
+    background: lightskyblue;
+    font-family: "Open Sans";
+}
+
+
+/*FlexGrid Styles*/
+
+.blogWrapper{
+    background-color: darkcyan;
+    width: 95%;
+    margin: auto;
+}
+.blogSection{
+    /*735/820=.89634146*/
+    width: 90%;
+    /*45/820 = .05487805*/
+    margin: auto;
+
+    /*section 1 is 475/735px = .6463585*/
+    background: #F8F5F2 url("vEaAhPn.png") 65% 0;
+    display: flex;
+}
+.feature{
+    /*480/900 = .53333333333333*/
+    width: 80%;
+    /*140/900 = .155555555555*/
+    margin: auto;
+    padding: 1% 0;
+
+}
+.featureWrapper{
+    background-color: deepskyblue;
+}
+.featurePhoto{
+    position: relative;
+}
+.featureParagraph{
+    /*480/480 = 1*/
+    width: 100%;
+    line-height: 150%;
+}
+.featureParagraph p{
+    /*10/480=.020833333*/
+    /*I can't find a way to calculate height, so I will just double the current number
+    20/480=.0416666666*/
+    padding: 2.083333333% 4.16666666%;
+    background-color: lightslategray;
+}
+footer{
+    width: 100%;
+    background-color: floralwhite;
+    margin: 2% auto 0 auto;
+    padding: 1%;
+
+}
+.gallery{
+    background-color: white;
+    width: available;
+    margin: auto;
+}
+h1{
+    /*835/820 = 1.01829268*/
+    width: 101%;
+    /* 50/820 = .06097561 */
+    height: 7%;
+    margin-left: -1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: honeydew;
+    font-size: 2em;
+    padding-left: 3%;
+    padding-right: -8%;
+}
+
+
+header{
+    /*220/820=.26829268*/
+    width: 26.829268%;
+    margin: auto;
+    height: auto;
+
+}
+
+.leftColumn{
+    /* 430/735 = .58503401
+    85/5/735 = .02312925
+    splitting 2-1-2, left, middle, right*/
+    width: 60%;
+    margin-left: 3.52585%;
+    margin-right: 2.2564625%;
+    padding: 2% 1.75% 2% 0;
+}
+.logo{
+    width: 100%;
+    text-align: center;
+    background-color: #ffffff;
+    margin: 0 auto -4%;
+}
+.logo img{
+    margin: -9% auto 9%;
+    border-radius: 100%;
+}
+nav{
+    /*860/820=1.04870487*/
+    width: 106%;
+    /*820/20 = .0243902439*/
+    margin-left: -3%;
+    font-size: 1.1em;
+    background-color: lavender;
+}
+.rightColumn{
+    /* 220/735 = .29931973
+        85/735 = .11564626
+    */
+    width: 30%;
+    margin-right: 3.52585%;
+    margin-left: 2.2564625%;
+    padding: 2% 0 2% 2%;
+}
+.wrapper{
+    /*820+40+40 = 900*/
+    max-width: 90%;
+    width: 100%;
+    /* 40/900 = 04444444444 */
+    margin: 4.4444444444% auto;
+}
+/*Typographic*/
+
+.featurePhoto img{
+    vertical-align: bottom;
+}
+.featureText{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(43, 45, 47, 0.8);
+    padding: 2%;
+    color: aliceblue;
+}
+.figureImage{
+    width: 30%;
+    margin-left: 2%;
+    margin-top: 2%;
+
+}
+h2{
+    font-size: 1.5em;
+    margin-bottom: 2%;
+}
+.leftColumn p{
+    padding: 2% 0;
+    line-height: 125%;
+}
+img{
+    max-width: 100%;
+}
+nav ul li{
+    display: inline-block;
+    flex: 0 1 auto;
+    margin-top: 1%;
+}
+nav ul{
+    /*20/860 = .023255813953488*/
+    padding:  2% 10%;
+    display: flex;
+    justify-content: space-between;
+
+}
+ol{
+    list-style-type: georgian;
+    margin: 1%;
+}
+ol li{
+    margin: 2%;
+    line-height: 150%;
+}
+ol li h3{
+    color: darkgreen;
+    border-bottom-color: black;
+    border-bottom-style: dot-dot-dash;
+    border-bottom-width: thin;
+    margin-bottom: .5%;
+    padding: .5%;
+}
+ol li p{
+    border-bottom-style: solid;
+    border-width: thin;
+    border-bottom-color: gray;
+    margin: auto;
+    padding: .5%;
+}
+.textWrap{
+    float: right;
+    margin: .5%;
+}
+
+
+/*Gallery*/
+.imgRow {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 .5%;
+}
+
+/* Create four equal columns that sits next to each other */
+.imgCol {
+    flex: 25%;
+    max-width: 24%;
+    padding: 1% .5%;
+}
+
+.imgCol img {
+    margin-top: 2%;
+    vertical-align: middle;
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .imgCol{
+        flex: 49%;
+        max-width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+   .imgCol{
+       flex: 100%;
+       max-width: 100%;
+   }
+    .leftColumn{
+        width: 100%;
+        padding: 2%;
+        margin: auto;
+        clear: both;
+        background-color: #eef3f3;
+    }
+    .rightColumn{
+        width: 100%;
+        margin: auto;
+        clear: both;
+        padding: 2%;
+        background-color: #dcebeb;
+    }
+    .blogSection{
+        flex-wrap: wrap;
+        background: none;
+    }
+    nav {
+        font-size: .75em;
+    }
+
+    .feature{
+        width: 90%;
+    }
+
+    h1{
+        padding: 2%;
+        margin-left: -2.5%;
+    }
+
+
+
+}

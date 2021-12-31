@@ -1,0 +1,20 @@
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\bin\Debug\Assignment4Task1.exe.config
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\bin\Debug\Assignment4Task1.exe
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\bin\Debug\Assignment4Task1.pdb
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.csprojAssemblyReference.cache
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.Properties.Resources.resources
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.csproj.GenerateResource.cache
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.csproj.CoreCompileInputs.cache
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.exe
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.pdb
+C:\Users\khath\source\repos\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.Assignment4Task1.resources
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\bin\Debug\Assignment4Task1.exe.config
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\bin\Debug\Assignment4Task1.exe
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\bin\Debug\Assignment4Task1.pdb
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.csprojAssemblyReference.cache
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.Assignment4Task1.resources
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.Properties.Resources.resources
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.csproj.GenerateResource.cache
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.csproj.CoreCompileInputs.cache
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.exe
+F:\Homework\CSCI 1150 C#\Assignment4Task1\Assignment4Task1\obj\Debug\Assignment4Task1.pdb

@@ -1,0 +1,11 @@
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\obj\Debug\Assignment2.csprojAssemblyReference.cache
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\obj\Debug\Assignment2.Properties.Resources.resources
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.GenerateResource.cache
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\obj\Debug\Assignment2.csproj.CoreCompileInputs.cache
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\bin\Debug\Assignment2.exe.config
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\bin\Debug\Assignment2.exe
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\bin\Debug\Assignment2.pdb
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\obj\Debug\Assignment2.exe
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\obj\Debug\Assignment2.pdb
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\obj\Debug\Assignment2.Task1.resources
+F:\Homework\CSCI 1150 C#\Assignment2\Assignment2\obj\Debug\Assignment2.Task2.resources

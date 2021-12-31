@@ -1,0 +1,15 @@
+F:\Downloads\BoatRentals-C\BoatRentals\bin\Debug\netcoreapp3.1\BoatRentals.exe
+F:\Downloads\BoatRentals-C\BoatRentals\bin\Debug\netcoreapp3.1\BoatRentals.deps.json
+F:\Downloads\BoatRentals-C\BoatRentals\bin\Debug\netcoreapp3.1\BoatRentals.runtimeconfig.json
+F:\Downloads\BoatRentals-C\BoatRentals\bin\Debug\netcoreapp3.1\BoatRentals.runtimeconfig.dev.json
+F:\Downloads\BoatRentals-C\BoatRentals\bin\Debug\netcoreapp3.1\BoatRentals.dll
+F:\Downloads\BoatRentals-C\BoatRentals\bin\Debug\netcoreapp3.1\BoatRentals.pdb
+F:\Downloads\BoatRentals-C\BoatRentals\obj\Debug\netcoreapp3.1\BoatRentals.csprojAssemblyReference.cache
+F:\Downloads\BoatRentals-C\BoatRentals\obj\Debug\netcoreapp3.1\BoatRentals.boatRentalForm.resources
+F:\Downloads\BoatRentals-C\BoatRentals\obj\Debug\netcoreapp3.1\BoatRentals.csproj.GenerateResource.cache
+F:\Downloads\BoatRentals-C\BoatRentals\obj\Debug\netcoreapp3.1\BoatRentals.AssemblyInfoInputs.cache
+F:\Downloads\BoatRentals-C\BoatRentals\obj\Debug\netcoreapp3.1\BoatRentals.AssemblyInfo.cs
+F:\Downloads\BoatRentals-C\BoatRentals\obj\Debug\netcoreapp3.1\BoatRentals.csproj.CoreCompileInputs.cache
+F:\Downloads\BoatRentals-C\BoatRentals\obj\Debug\netcoreapp3.1\BoatRentals.dll
+F:\Downloads\BoatRentals-C\BoatRentals\obj\Debug\netcoreapp3.1\BoatRentals.pdb
+F:\Downloads\BoatRentals-C\BoatRentals\obj\Debug\netcoreapp3.1\BoatRentals.genruntimeconfig.cache

@@ -1,0 +1,100 @@
+1 % "val bindings" and "val declarations" are two basic types of what? A) Expressions B) Functions C) Declarations D) Recursion % C
+1 % What symbol is used in SML to separate different cases? A) | B) _ C) ^ D) ~ % A
+1 % In SQL, this clause will allow us to sort query results: A) INSERT B) SORT C) GROUP BY D) ORDER BY % D
+1 % In SQL, which command will allow us to clear table data? A) CLEAR B) DELETE C) DROP D) REMOVE % B
+1 % In SML, what keyword declares a function named "complex"? A) fun complex B) function complex C) funComplex D) .funcomplex % A
+1 % This returns true if c is a lowercase letter: A) lower c B) isLower c C) isLowercase c D) lowercase c % B
+1 % What type does "5" have in SML? A) Real B) Integer C) Boolean D) String % B
+2 % Which of the following is not a number type:  A) all real numbers  B) all complex numbers  C) all strings  D) all integars % C
+2 % What is the symbol for "All integars are rational numbers": A) Z⊆Q  B) 5∈N  C) Q⊆Q  D) none of the above % A
+2 % What is the result of 12 ∈ N:  A) False, because 12 is a natural number  B)  True, beacuse 12 is a real number  C) False, because 12 is not a natural number  D) True, because 12 is a whole number % C
+2 % What is the definition of a bit:  A) 8 bytes  B) a state on or off / 0 or 1  C) a really large number  D) memory dump % B
+2 % Contiune the following "32, 64, 128, 256, 512, __": A) 1021  B) 2^8  C) 0  D) 1024 % D
+2 % Which of the following is in Hexadecimal form:  A) 0x7A  B)  0b1111010  C) 010101  D) all the above % A
+2 % What is the result of adding 1011 and 1101:  A) 10010  B)  1011  C) 2112  D) 11000 % D
+3 % How many subsets does the power set of an empty set have? A) One B) Two C) Three D) Zero % A
+3 % What is the cardinality of odd positive integers less than 10? A) 20 B) 3 C) 5 D) 10 % C
+3 % The complement of the union is: A) The union of the complements  B) The complement of the difference  C) The intersection of the complements  D) The powerset of the union % C
+3 % The @ operator in SML is closest to which of the following set operations: A) Union  B) Complement  C) Difference  D) Intersection % A
+3 % Evaluate the result of the following SML expression: [1,2,3]::[[4,5,6]]; A) [1,2,3,4,5,6]  B) [[1,2,3], 4,5,6]  C) [1,2,3,[4,5,6]]  D) [[1,2,3],[4,5,6]] % D
+3 % Let SQL table 'A' with single integer column 'x' have rows 1,2,3,4. Let SQL table 'B' with single integer column 'x' have rows 2,3,4,5. Then the intersection of the sets {1,2,3,4} and {2,3,4,5} is given by which of the following SQLite queries: A) SELECT x FROM A INTERSECT SELECT x FROM B;  B) SELECT x FROM A UNION SELECT x FROM B;  C) SELECT x FROM A, B;  D) SELECT x FROM A UNION SELECT COMPLEMENT(x) FROM B; % A
+3 % If x in B, then which of the following is necessarily true?  A) x in A-B  B) x not in A-B  C) x not in A U B  D) x not in A intersect B % B
+3 % If |A|=c, then |powerset(A)|=  A) 2n  B) n^2  C) 2^n  D) n^n % C
+3 % If A and B are disjoint, then |A-B|=  A) |A|  B) |B|  C) A-B  D) |A|-|B| % D
+4 % A list may be comprised of tuples if each group has the same: A) Cardinality B) Element C) Length D) Characters % A
+4 % In SML, what symbol defines a character literal? A) ? B) # C) ! D) _ % B
+4 % What is the head of the following list? val myList = [1,2,3,4] A) 3 B) 2 C) 1 D) 4 % C
+4 % How would we prepend 5, a single element, to the front of a list? A) 5@[1,2,3,4] B) hd([5,1,2,3,4]) C) 5:[1,2,3,4] D) 5::[1,2,3,4] % D
+4 % Is it possible to make custom lists in SML? A) Yes B) No C) Maybe D) Probably % A
+4 % What is the type of the following list of lists? [[], [1,2], [3,4]] A) list list list B) int list list C) list D) int % B
+4 % What is the tail of the following list? val myList = [1,2,3,4] A) [4] B) (2,3,4) C) [2,3,4] D) [3,4] % C
+5 % If A is true and B is false, then what is A ∨ B:  A) false  B)  true  C) undefined  D) none of the above % B
+5 % If A is false and B is true, then what is A ∧ B:  A) false  B)  true  C) undefined  D) none of the above % A
+5 % What is negation:  A) is false when A is true, and is true when A is false  B)  is true when A is true, and is false when A is false  C) is always true  D) is always false % A
+5 % If A then B. which of the following is correct:  A) if A is false, then B true, the rest is false  B) if A is true, then B true, the rest is false  C) if A is false, then B false, the rest is false  D) if A is true, then B is false, the rest if false  % D
+5 % What is a contradiction:  A) a formula which is true for every value of its propositional variables  B) a formula which is not true or false for every value of its propositional variables C) a formula which is false for every value of its propositional variables  D) none of the above % C
+5 % What is the inverse of "If you study, you won't fail": A) "If you don't study, you won't fail"  B) "If you don't study, you will fail"  C) "If you study, you will fail"  D) "If study you won't fail" % B
+5 % What is the converse of "If you study, you won't fail": A) "If you don't study, you won't fail"  B) "If you will not fail, you won't study"  C) "If you will not fail  D) "If you will not fail, you will study" % D
+6 % If p => q, which of the following is necessarily true: A) ~q => ~p  B) ~p => ~q  C) q => p  D) p => ~q % A
+6 % Identify the fallacy in the following "proof": A is a subset of B and B is a subset of C implies A is a subset of C. Therefore if A is a subset of C, A is a subset of B.  A) Assuming the contrapositive  B) Assuming the converse  C) Assuming the unknown  D) Solving for x % B
+6 % A proof that X exists by proving precisely what X is is what kind of proof: A) Constructive  B) Destructive  C) Instructive  D) Indirect % A
+6 % If we prove that A is a subset of B, what else must we prove to show that A = B? A) A and B are disjoint  B) |A|=|B|  C) B is a superset of A  D) B is a subset of A % D
+6 % For set A, universe U, and complement Ac, which of the following is insufficient to show that A is empty: A) A intersect Ac = {}  B) There does not exist x in U such that x in A  C) A union Ac = U  D) For all x in U, x not in A  D) % C 
+6 % For rational number x and integers p and q such that x = p/q, which of the following can you prove with certainty: A) p and q are relatively prime  B) If x < 0, then either p > 0 or q > 0  C) x is in the cartesian product Z x Z  D) p and q are linearly independent % B
+6 % Consider the following erroneous proof that subset is transitive: Let A be a subset of B and B be a subset of C. Assume that A is a subset of C. Then it is not possible that A is not a subset of C, therefore A is a subset of C. What logical error does this demonstrate? A) Proof by contradiction  B) Reusing variables  C) Arguing from example  D) Begging the question % D
+7 % Let A={a,b,c} and B={1,2,3}. Which subset demonstrates a relation from A to B? A) R={(a,1),(b,2),(c,2)} B) Q={(1,a),(2,b)} C) All of the above D) None of the above % A
+7 % Is the following relation on the set {1, 2, 3, 4} reflexive, symmetric, antisymmetric, or transitive? {(2, 2),(2, 3),(2, 4),(3, 2),(3, 3),(3, 4)} A) Reflexive B) Transitive C) Symmetric D) Antisymmetric % B
+7 % Is the following relation on the set {1, 2, 3, 4} reflexive, symmetric, antisymmetric, or transitive? {(2, 4),(4, 2)} A) Antisymmetric B) Reflexive C) Symmetric D) Transitive % C
+7 % Is the following relation on the set {1, 2, 3, 4} reflexive, symmetric, antisymmetric, or transitive? {(1, 2),(2, 3),(3, 4)} A) Reflexive B) Transitive C) Symmetric D) Antisymmetric % D
+7 % Is the following relation on the set {1, 2, 3, 4} reflexive, symmetric, or antisymmetric? {(1, 3),(1, 4),(2, 3),(2, 4),(3, 1),(3, 4)} A) Reflexive B) Symmetric C) Antisymmetric D) None of the above % D
+7 % Is the following relation on the set {1, 2, 3, 4} reflexive, symmetric, or transitive? {(1, 1),(1, 2),(2, 1),(2, 2),(3, 3),(4, 4)} A) Reflexive B) Symmetric C) Transitive D) All of the above % D
+7 % When graphed, which relation will always have unidirectional edges? A) Antisymmetric B) Symmetric C) Transitive D) Reflexive % A
+8 % Which of the following is not a type of recursion:  A) Direct  B) Friendship  C)  Tail  D) Indirect % B
+8 % Which of the following is a rule of recursion:  A) Function logic alters the input  B) Function does not require input  C) No cases are included  D) Returns no output  % A
+8 % What is mathematical induction:  A) Solution found in final state of input or the sequence of input  B) A way to disprove statements about structures like sets, lists, and trees  C) A empty set  D) A way to prove statements about structures like sets, lists, and trees  % D
+8 % Which of the following is not suitable for recursion:  A) Solutions that does not invovled branching  B) Processing small amounts of input  C) Solutions with branching with small inputs  D) Solutions that branch with large inputs  % D
+8 % When would it be suitable to use recursion:  A) Solutions that has branching  B) When preformance could be worse  C) Need an accumulated value where variables are immutable  D) None of the above % C
+8 % Which of the following is true:  A) Immutability is default for value bindings in SML  B) Immutability is not default for value bindings in SML C) Immutability is variable depending on the value type  D) None of the above % A
+8 % How are reference variables defined in SML:  A) val x_ref = 0;  B) val ref x = 0;  C) val x_ref = ref 0;  D) None of the above % C
+9 % For f:D -> R, if for all r in R there exists d in D such that f(d) = r, then f is: A) injective  B) symmetric  C) surjective  D) projective % C
+9 % For f:D -> R, if for all x,y in D, f(x) = f(y) implies x = y, then f is: A) injective  B) symmetric  C) surjective  D) projective % A
+9 % For f:D -> R and g:R -> D, if f(g(x)) = g(f(x)) = x, then g is: A) invertible  B) injective  C) surjective  D) all of the above % D
+9 % As the set of natural numbers N is isomorphic to N, we say that it is: A) uncountably infinite  B) countably infinite  C) uncountably finite  D) countably finite % B
+9 % Let f be an SML function which takes one function g int -> int as a parameter and returns another function int -> int. Which of the following is valid syntax: A) f(g(5))  B) f(g)(5)  C) f(5)(g)  D) g(f)(5) % B
+9 % In SML, functions can be passed as parameters to other functions. This means that functions are: A) Sets  B) Scalars  C) First-class values  D) Functional languages % C
+9 % The image of a function f:D -> R is defined as: A) {d in D : f(d) = d}  B) {r in R : there exists d in D such that f(d)=r}  C) {d in R : f(r) = D}  D) R - D % B
+10 % Which of the following are some of the factors in determining algorithmic performance? A) CPU B) Runtime behavior C) Complexity of the algorithm D) All of the above % D
+10 % To make an objective comparison of algorithms, which performance factor do we focus on? A) Code length B) Compiler C) Complexity D) Distribution of algorithm % C
+10 % What is the problem size of the following code? fun sumList1 ([]) = 0 | sumList1 (hd::tl) = hd + sumList1(tl); A) 1 B) 2 C) 3 D) 4 % B
+10 % What is the mathematical shorthand, Big-O, used to describe? A) Time-complexity B) Average-complexity C) Growth rate D) None of the above % A
+10 % Which of the following is the most time efficient? A) O(1) B) O(n^2) C) O(n^3) D) O(2^n)% A
+10 % When does a reccurence relation occur? A) When a funtion T() is present B) When a function T() occurs on both sides of the = sign C) When a function T() occurs on one side of the = sign D) When there is an = sign present % B
+10 % What is one of the general ideas to consider when selecting an algorithm? A) Pick a solution requiring the LEAST number of operations B) Pick a solution requiring the MOST number of operations C) Choose the one that is exponential even if constant or logarithmic algorithms are available D) Close your eyes and pick at random  % A
+11 % What is defined as a graph:  A) A collection of distinct vertices which are connected by edges  B) A collection of lines that never intersect  C) A collection of points that aren't connected  D) None of the above. % A
+11 % Which of the following is the correct denotion of a graph:  A) G = G(V)  B) deg(v1) = 2  C) G(V, E)  D) None of the above. % C
+11 % Which of the can an undirected graph not be:  A) Connected  B) Complete  C) Disconnected  D) Incomplete % D
+11 % How can you construct a graph:  A) Using a list data structure, store objects of vertexes  B) Store the vertex details in a string  C) You can't, you must display it as the function runs  D) A and B % D
+11 % To avoid ambiguity, directed graph may be called a:  A) undirected complex graph  B) directed complex graph  C) undirected simple graph  D) directed simple graph % D
+11 % Which of the following might be apply to computer science graphs:  A) Used to represent networks of communication B)  Used to study molecules  C) study social network behavier  D) none of the above % A
+11 % Which of the following is a way to calculate the distance between each vertex:  A)  (x2-x1)/(y2-y1)  B)  y-y1=m(x-x1)  C) ((x1 - x2)^2 + (y1 - y2)^2)^1/2  D) None of the above % C
+12 % A combinational circuit can be described in terms of which two kinds of components: A) true and false  B) wires and gates  C) AND and OR gates  D) xor(a,b) and cond(a,b) % B
+12 % Half adders fail to account for: A) carries  B) adds  C) bits  D) circuits % A
+12 % How many input wires does a full adder have? A) 1  B) 2  C) 3  D)  4 % C
+12 % All lattices are: A) Bounded  B) Posets  C) Unbounded  D) Relations % B
+12 % The outputs of a combinational circuit cannot ever be used as: A) The inputs to the same circuit  B) The inputs to a different circuit  C) Both of the above  D) None of the above % A
+12 % Express the base-10 number 12 in binary with the least significant bit first: A) 1100  B) 1001  C) 0101  D) 0011 % D
+12 % In terms of the AND operator ^, the OR operator v, and the NOT operator ~, p xor q is represented as: A) p v q  B) p ^ (q v p)  C) (p ^ q) v (q ^ ~p)  D) (p v q) ^ ~(p ^ q) % D
+13 % Which of the following is one of the uses of unsupervised learning? A) Anomaly detection B) Data categorization C) Dimension reduction D) All of the above % D
+13 % What does the input layer contain? A) A Kohonen network B) Nodes representing input vectors C) BMUs D) Competitive nodes % B
+13 % Which is one of the two parts of the self-organization mapping procedure? A) Training B) Practicing C) Vectoring D) Signaling % A
+13 % What is one of the things that nodes in a neighborhood can reveal? A) Vectors B) Data C) Relationships D) Topology % C
+13 % What form can a topology take? A) Linear B) Multi-dimensional C) Square D) All of the above % D
+13 % What is the value of the winning neuron in this linear output layer? 0 0 0 1 2 3 2 1 0 0 A) 3 B) 2 C) 1 D) 0 % A
+13 % In pseudocode, what does "Epoch t" represent? A) Number of sample sets B) Current training set C) Sample from training set D) Data from which training sets are taken % B
+14 % What is an alphabet:  A) A set of symbols  B) A sentence  C) A set of numbers  D)  all of the above % A 
+14 % An automaton is:  A) a modal that requires the user to work  B)  a modal of a machine that works on its own  C) abstract device or a modal of computation  D)  Both B and C % D 
+14 % When the machine has a finite number of possible states, that is known as:   A) nondeterministic infinite automation (NIA) B)  deterministic finite automation (DFA)  C) nondeterministic finite mation (NFM)  D)  all the above % B 
+14 % Which of the following is similar to DFA (deterministic finite automation) but in some states it has more then one possible transition for the same symbol:   A) nondeterministic infinite automation (NFA) B)  deterministic finite automation (DFA)  C) nondeterministic finite mation (NFM)  D)  all the above % A 
+14 % What is the defintion of the following symbol "∅":  A) the set/language of no strings B)  the set/language only empty strings  C) the set/language only string with symbol a D)  all the above % A 
+14 % What is the defintion of the following symbol "ε":  A) the set/language of no strings B)  the set/language only empty strings  C) the set/language only string with symbol a D)  all the above % B 
+14 % What is the defintion of the following symbol "a":  A) the set/language of no strings B)  the set/language only empty strings  C) the set/language only string with symbol a D)  all the above % C

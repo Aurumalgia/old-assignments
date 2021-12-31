@@ -1,0 +1,93 @@
+<!doctype html> <!--declaring doctype-->
+<html lang=en>
+    <head> <!--Contains all things in the metadata, and the stylesheet in CSS-->
+        <meta charset=utf-8>
+        <title>Page 2</title>
+
+        <style>
+            /*Clearing out any default style*/
+            *{
+                margin: auto;
+                padding: 0;
+            }
+
+            body {
+                background-color: #5A4E3C;
+                color: #E9EBBF;
+            }
+            header, nav, footer{
+                background-color: #D8E472;
+            }
+            header, footer{
+                padding: 2%;
+            }
+            h1, footer{
+                color: #5A4E3C;
+            }
+
+            /*To force footer below the main and sidebar*/
+            footer{
+                clear: both;
+            }
+            #wrapper{
+                width: 85%;
+                background-color: #418e8e;
+            }
+            #main_content{
+                width: 56%;
+                padding: 2%;
+                float: left; /*To make 2 columns*/
+            }
+            #sidebar{
+                width: 36%;
+                padding: 2%;
+                float: left; /*To make 2 columns*/
+            }
+            ul > li{
+                /*No bullets, inline horizontally, padding to match the rest of the page*/
+                list-style-type: none;
+                display: inline-block;
+                padding-left: 2%;
+                padding-bottom: 1%; /*To make it look less cluttered*/
+            }
+        </style>
+    </head>
+    <body>
+    <!--wrapper to wrap the whole page up-->
+        <div id="wrapper">
+            <header>
+                <h1>
+                    Page 2
+                </h1>
+            </header>
+            <nav>
+                <ul>
+                    <!--links to itself and page 2-->
+                    <li><a href = "page1.html">Page 1</a></li>
+                    <li><a href="page2.html">Page 2</a></li>
+                </ul>
+            </nav>
+            <!--Main content on left of div-->
+            <div id="main_content">
+                <article>
+                    <h2>
+                        Subhead
+                    </h2>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. In vel consequat purus, at dictum leo. Ut a dapibus eros. Fusce in nunc mi. Quisque ullamcorper mauris sit amet ornare interdum. Maecenas egestas, nibh eu efficitur posuere, justo dui tincidunt urna, sit amet rhoncus sem risus vel est. Sed dolor nunc, tempor sed ligula non, porttitor scelerisque massa. Pellentesque vel vulputate erat, sed auctor sem. In rhoncus magna enim, non dapibus urna pellentesque eget. Quisque quis congue dui. Aenean scelerisque vehicula sapien vitae aliquam.
+                </article>
+            </div>
+            <!--Sidebar on right of div-->
+            <div id="sidebar">
+                <article>
+                    <h2>
+                        Subhead
+                    </h2>
+                    Donec nec dapibus leo, nec venenatis dolor. Vivamus sit amet lorem et mi efficitur consequat. Duis sed diam sem. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin sit amet hendrerit lacus. Donec erat sapien, malesuada id massa quis, lacinia viverra elit. Nullam sagittis, orci non pulvinar dignissim, elit ligula vulputate risus, sit amet lobortis felis nisi a arcu. Vestibulum gravida imperdiet diam, consectetur tristique velit rutrum a. Etiam consequat ultricies neque eu tincidunt. Etiam lectus velit, egestas et volutpat laoreet, volutpat eget felis.
+                </article>
+            </div>
+            <footer>
+                Copyright Kha Pham &copy 2021
+            </footer>
+        </div>
+    </body>
+</html>

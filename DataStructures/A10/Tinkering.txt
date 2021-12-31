@@ -1,0 +1,140 @@
+
+Tinkering.txt
+
+Hash Table Observations
+
+10K = 1,000
+100K = 100,000
+1M = 1 million
+10M = 10 million
+etc.
+
+Remember actual timings are not an exact science and are
+known to be squirrelly (lot of potential external factors
+outside of test focus). But they can lead to general observations.
+
+Also see end of this document
+	
+--------------------------------------------------	
+
+1. Compare maxLoadRatio on search
+
+	A) Do the "Search Test #1" (see end of this document) with a tree 
+	   with maxLoadRatio of 999999
+	B) Do the "Search Test #1" with a tree 
+	   with maxLoadRatio of 0.75		
+	   
+	How does "Search A" compare to "Search B"?
+	
+	Why?
+
+	So even before the adding part, I tested it accidentally with one less 9, and rehashing took an absurd amount of time.
+	Also, because the linked lists are so absurdly long, this whole execution time take more than a few minutes for A, compared
+	with less than a full second for search B, because linking it to a key and then a short linked list is much, much faster,
+	considering there's less iteration.
+	After running it for half an hour, I realized that this would take forever to run. Using my phone camera, and adjusting
+	my code out output print statement each time it finds something, I see that in 1 second, it finds about 4-6 keys.
+	1 Million/4 or 6/60/60 is 46-70 hours.... so I decided to not run the whole program until it ended. Without the print statements,
+	Search B seemd to run about 10 times faster than with the print statemnts, so if we cross compare, that is still
+	4.6-7 hours
+	Oh, and Search B ran for about 1.5 seconds with the print statements each time it found the key, and .12 seconds consistantly without it.
+	
+	
+	
+	
+	
+	
+	
+		
+2. Compare impact of "N" (tree size) on search time
+
+	Do "Search Test #1" on a variety of tree sizes:
+	
+		10K - .003
+		100K - .025
+		1M - .123
+	
+	Does search time slow down?
+	Yes
+	Why or why not?	
+	Just because there's a lot more iteration going on, and also... a lot more stuff to search for. Makes sense to me. JK
+	If we take those and divide it by how many searches we had to do, we get
+	3 * 10 ^-7
+	2.5 * 10 ^-7
+	1.23 * 10 ^-7
+	so it actually looks like search time goes DOWN per search, but I can't seem to put my finger on why. It must be because it's easier to search
+	through more buckets, or that it's more evenly spread with more numbers?
+	
+	
+	
+	
+	
+
+3. Why would maintaining table length as a prime number
+	potentially improve performance?
+	(see Chapter "References")
+	Because prime numbers don't have any factors below it other than 1, it makes the distribution of hash codes more
+	uniform, which could average out performance in the long run.
+	
+	
+	
+	
+	
+	
+	
+4. How does search function Big-O compare for these structures:
+
+	LinkedList = O(n)
+	DynamicArray = O(1)
+	BinarySearchTree = O(log n)
+	HashTable = O(1+O(n)? It ranges between O(1) and O(N), but in effect is basically O(1)
+	
+	
+	
+	
+	
+5. Why is a common initialCapacity about 17 (small). Why is a common
+default not very large?
+(this one might take some creative thinking and educated guesses)
+Well, 17 is a prime number, so that's a point in it's favor. There's probably data out there that states that
+not many people use more than 17, or that it's a good number to rehash to?
+	
+	
+	
+	
+
+5. Other observations?
+
+
+
+
+
+
+
+--------------------------------------------------	
+
+Let this be "Search Test #1":
+(Depending on your processor -- adjust 1M to 10M etc coder's choice)
+	Build a tree with 1M keys.
+	Have another list of the same 1M keys.
+	Start Timer
+	Iterate over the list searching for each key. (do NOT need to capture search result)
+	Stop Timer
+	
+If you like you might come up with other search tests.
+
+One way to do timings in Java:
+
+	Instant start, finish;
+	start = Instant.now();
+	//PROCESSING HERE
+	finish = Instant.now();		
+
+	long 
+		timeElapsedNanos = Duration.between(start, finish).toNanos(),
+		timeElapsedMs = Math.round(timeElapsedNanos / 1000000.0);
+	double timeElapsedSecs = timeElapsedMs / 1000.0;
+		
+
+
+

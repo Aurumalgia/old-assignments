@@ -1,0 +1,10 @@
+F:\Downloads\Assignment3Task2\bin\Debug\Assignment3Task2.exe.config
+F:\Downloads\Assignment3Task2\bin\Debug\Assignment3Task2.exe
+F:\Downloads\Assignment3Task2\bin\Debug\Assignment3Task2.pdb
+F:\Downloads\Assignment3Task2\obj\Debug\Assignment3Task2.csprojAssemblyReference.cache
+F:\Downloads\Assignment3Task2\obj\Debug\Assignment3Task2.Form1.resources
+F:\Downloads\Assignment3Task2\obj\Debug\Assignment3Task2.Properties.Resources.resources
+F:\Downloads\Assignment3Task2\obj\Debug\Assignment3Task2.csproj.GenerateResource.cache
+F:\Downloads\Assignment3Task2\obj\Debug\Assignment3Task2.csproj.CoreCompileInputs.cache
+F:\Downloads\Assignment3Task2\obj\Debug\Assignment3Task2.exe
+F:\Downloads\Assignment3Task2\obj\Debug\Assignment3Task2.pdb
